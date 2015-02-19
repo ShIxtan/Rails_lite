@@ -4,6 +4,7 @@ require_relative './params'
 require_relative './session'
 require 'active_support/inflector'
 require 'erb'
+require 'securerandom'
 
 
 class ControllerBase
